@@ -1,0 +1,83 @@
+hash: 5b96c26863601d4a715b0f639751fda59ba3ec26f7b2a4fbe0fef1dbb22fc082
+updated: 2017-08-09T10:34:14.118094287Z
+imports:
+- name: github.com/abh/geoip
+  version: 07cea4480daa3f28edd2856f2a0490fbe83842eb
+  repo: https://github.com/abh/geoip
+  vcs: git
+- name: github.com/certifi/gocertifi
+  version: 3fd9e1adb12b72d2f3f82191d49be9b93c69f67c
+- name: github.com/chihaya/bencode
+  version: 641906563e269b7b7ce906da1d0d752f43f90155
+  repo: https://github.com/chihaya/bencode
+  vcs: git
+- name: github.com/garyburd/redigo
+  version: 9e66b83d15a259978be267d0b61838c42c3904e3
+  repo: https://github.com/garyburd/redigo
+  vcs: git
+  subpackages:
+  - internal
+  - redis
+- name: github.com/getsentry/raven-go
+  version: d175f85701dfbf44cb0510114c9943e665e60907
+  repo: https://github.com/getsentry/raven-go
+  vcs: git
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: 81007d2ce0176f7a9ce52dd12e56edd7ef40e72c
+  repo: https://github.com/gin-gonic/gin
+  vcs: git
+  subpackages:
+  - binding
+  - json
+  - render
+- name: github.com/golang/protobuf
+  version: 1909bc2f63dc92bb931deace8b8312c4db72d12f
+  subpackages:
+  - proto
+- name: github.com/json-iterator/go
+  version: 9c358632dc6eac53a4940b59266c805024e38e37
+- name: github.com/manucorporat/sse
+  version: ee05b128a739a0fb76c7ebd3ae4810c1de808d6d
+  repo: https://github.com/manucorporat/sse
+  vcs: git
+- name: github.com/mattn/go-colorable
+  version: 6c0fd4aa6ec5818d5e3ea9e03ae436972a6c5a9a
+  repo: https://github.com/mattn/go-colorable
+  vcs: git
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/moul/http2curl
+  version: 4e24498b31dba4683efb9d35c1c8a91e2eda28c8
+- name: github.com/parnurzeal/gorequest
+  version: 5bf13be198787abbed057fb7c4007f372083a0f5
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/rcrowley/go-metrics
+  version: 1f30fe9094a513ce4c700b9a54458bbb0c96996c
+  repo: https://github.com/rcrowley/go-metrics
+  vcs: git
+- name: github.com/Sirupsen/logrus
+  version: 418b41d23a1bf978c06faea5313ba194650ac088
+  repo: https://github.com/Sirupsen/logrus
+  vcs: git
+  subpackages:
+  - hooks/sentry
+- name: github.com/ugorji/go
+  version: 5efa3251c7f7d05e5d9704a69a984ec9f1386a40
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - publicsuffix
+- name: golang.org/x/sys
+  version: b0e0dd72976dc482b6cb37c5640440f876ac1907
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: 25c4ec802a7d637f88d584ab26798e94ad14c13b
+testImports: []
