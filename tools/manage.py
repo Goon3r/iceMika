@@ -80,7 +80,9 @@ def make_redis():
     return redis.StrictRedis(
         host=hostport[0],
         port=hostport[1],
-        db=int(config.get("RedisDB", 0)))
+        db=int(config.get("RedisDB", 0)),
+        password=config.get("RedisPass", None)
+    )
 
 
 def warmup(**args):
