@@ -54,8 +54,8 @@ func SetupLogger(log_level string, force_colour bool) {
 
 func SetupSentry() {
 	log.Info("Sentry configured for use @ ", conf.Config.SentryDSN)
-	SentryClient, _ = raven.NewClient(conf.Config.SentryDSN, nil)
-	if SentryClient == nil {
+	SentryClient, err := raven.New(conf.Config.SentryDSN)
+	if err != nil {
 		log.Error("Could not initialize sentry")
 	} else {
 		SentryClient.SetRelease(VersionStr())
